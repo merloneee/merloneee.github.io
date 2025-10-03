@@ -1,0 +1,23 @@
+body {
+  background-color: #d4d2d2;
+  font-family: "Helvetica Neue", "Inter", sans-serif;
+  font-size: 13pt;
+  line-height: 1.5;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('inter-regular-webfont.woff2') format('woff2'),
+       url('inter-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+div.site {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  size: 16pt;
+}
